@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SignupPage</title>
+</head>
+<body>
+	<h1>Welcome to signup page</h1>
+	<form type="submit" method="post">
+		<h1>{{ check_credentials }}</h1>
+		<label>Username: <input type="text" name="username" value="{{username}}"></label>
+		<br>
+		<label>Password: <input type="password" name="password" value="{{password_value}}"></label>
+		<br>
+		<label>Verify Password: <input type="password" name="password_verify" value="{{password_verify_value}}"></label>
+		<br>
+		<label>Email(optional): <input type="text" name="email" value="{{email}}"></label>
+		<br>
+		<input type="Submit" value="submit">
+	</form>
+</body>
+</html>
